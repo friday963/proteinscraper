@@ -10,7 +10,6 @@ if __name__ == "__main__":
     ms = MuscleAndStrengthProtein()
     get_page = ms.get_url()
     results = ms.parse_results(get_page)
-    print(results)
     send = SendGridEmailer(to_email=to_email, from_email=from_email, subject="Automated Protein Deal Alerts")
     send.add_body_and_format(results)
     send.send_email()
