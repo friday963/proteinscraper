@@ -3,12 +3,12 @@ from bs4 import BeautifulSoup
 import html_to_json
 from urllib.parse import urlparse
 from pprint import pprint as pp
-
+import os
 
 class ProteinGetter:
     def __init__(self) -> None:
         self.domain = None
-        self.deal_meta_data = {}
+        self.deal_meta_data_list = []
     
     def __repr__(self) -> str:
         self.deal_meta_data
@@ -42,12 +42,13 @@ class ProteinGetter:
         raise NotImplementedError
 
 
-class MuscleAndStrength(ProteinGetter):
+class MuscleAndStrengthProtein(ProteinGetter):
     def __init__(self) -> None:
         super().__init__()
+        self.uri = os.environ.get("MuscleAndStrengthProtein")
 
-    def get_url(self, uri, headers=None, payload=None) -> requests.Response:
-        return super().get_url(uri, headers, payload)
+    def get_url(self, headers=None, payload=None) -> requests.Response:
+        return super().get_url(self.uri, headers, payload)
 
     def parse_results(self, requests_response_obj: requests.Response):
         assert isinstance(requests_response_obj, requests.Response)
@@ -77,7 +78,7 @@ class MuscleAndStrength(ProteinGetter):
             except Exception as err:
                 raise KeyError("Could not retrieve price, structure changed.")
             try:
-                link = individual_deal_attributes[2]["div"][2]["a"][0]["_attributes"][
+                link = self.domain + individual_deal_attributes[2]["div"][2]["a"][0]["_attributes"][
                     "href"
                 ]
             except Exception as err:
@@ -94,10 +95,9 @@ class MuscleAndStrength(ProteinGetter):
                 raise KeyError(
                     "Could not retrieve deal banner details, structure changed."
                 )
-            self.deal_meta_data[product_description] = {}
-            self.deal_meta_data[product_description].update(
-                {"Price": price, "Link": link, "Deal": deal}
-            )
-        return self.deal_meta_data
+            deal_dict = dict({product_description: {"Price": price, "Link": link, "Deal": deal}})
+            self.deal_meta_data_list.append(deal_dict)
+
+        return self.deal_meta_data_list
 
 

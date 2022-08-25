@@ -1,2 +1,5 @@
 .vscode/
 venv/
+.env
+__pycache__/sendemail.cpython-39.pyc
+__pycache__/protein_scrape.cpython-39.pyc

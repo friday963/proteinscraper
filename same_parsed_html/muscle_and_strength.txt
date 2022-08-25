@@ -1,0 +1,163 @@
+[
+    {
+        "MGN Pure Whey Isolate, 5lbs": {
+            "Price": "$74.99",
+            "Link": "www.muscleandstrength.com/store/muscle-gauge-whey-protein-isolate.html",
+            "Deal": "LIMITED TIME PRICE CUT",
+        }
+    },
+    {
+        "AllMAX IsoFlex, 2lbs": {
+            "Price": "$49.99",
+            "Link": "www.muscleandstrength.com/store/isoflex.html",
+            "Deal": "Buy 2 for $69.99",
+        }
+    },
+    {
+        "AllMax Nutrition IsoFlex, 5lbs": {
+            "Price": "$79.99",
+            "Link": "www.muscleandstrength.com/store/isoflex.html",
+            "Deal": "LIMITED TIME PRICE CUT",
+        }
+    },
+    {
+        "AllMax IsoNatural, 5lbs": {
+            "Price": "$75.99",
+            "Link": "www.muscleandstrength.com/store/isonatural.html",
+            "Deal": "LIMITED TIME PRICE CUT",
+        }
+    },
+    {
+        "Six Star Elite Series Whey Isolate, 1.5lbs": {
+            "Price": "$23.99",
+            "Link": "www.muscleandstrength.com/store/six-star-whey-isolate.html",
+            "Deal": "LIMITED TIME PRICE CUT",
+        }
+    },
+    {
+        "Dymatize ISO100, 5lbs": {
+            "Price": "$94.99",
+            "Link": "www.muscleandstrength.com/store/dymatize-iso-100.html",
+            "Deal": "PRICE CUT + 3 FREE SAMPLES",
+        }
+    },
+    {
+        "Myprotein Impact Whey Isolate 2.2lb": {
+            "Price": "$31.99",
+            "Link": "www.muscleandstrength.com/store/impact-whey-isolate.html",
+            "Deal": "LIMITED TIME PRICE CUT",
+        }
+    },
+    {
+        "Myprotein Impact Whey Isolate 5.5lb": {
+            "Price": "$79.99",
+            "Link": "www.muscleandstrength.com/store/impact-whey-isolate.html",
+            "Deal": "LIMITED TIME PRICE CUT",
+        }
+    },
+    {
+        "BPI ISO HD, 5.1lbs": {
+            "Price": "$89.99",
+            "Link": "www.muscleandstrength.com/store/bpisports-isohd-whey-protein.html",
+            "Deal": "Buy 2 for $119.99",
+        }
+    },
+    {
+        "ON Gold Standard 100% Isolate, 24 Servings": {
+            "Price": "$34.99",
+            "Link": "www.muscleandstrength.com/store/gold-standard-100-whey-isolate.html",
+            "Deal": "Limited Time Price Cut",
+        }
+    },
+    {
+        "ON Gold Standard 100% Isolate, 44 Servings": {
+            "Price": "$58.99",
+            "Link": "www.muscleandstrength.com/store/gold-standard-100-whey-isolate.html",
+            "Deal": "LIMITED TIME PRICE CUT",
+        }
+    },
+    {
+        "Nutrex ISOFIT, 2.2lbs": {
+            "Price": "$44.99",
+            "Link": "www.muscleandstrength.com/store/nutrex-isofit.html",
+            "Deal": "30% DISCOUNT IN CART",
+        }
+    },
+    {
+        "PERFECT Sports DIESEL, 5lbs": {
+            "Price": "$79.99",
+            "Link": "www.muscleandstrength.com/store/perfect-sports-diesel-whey-protein-isolate.html",
+            "Deal": "LIMITED TIME PRICE CUT",
+        }
+    },
+    {
+        "Myprotein Clear Whey Isolate, 20sv": {
+            "Price": "$24.99",
+            "Link": "www.muscleandstrength.com/store/impact-clear-whey-isolate.html",
+            "Deal": "Buy 2 for $36.99",
+        }
+    },
+    {
+        "NOW Whey Protein Isolate, 5lbs": {
+            "Price": "$65.99",
+            "Link": "www.muscleandstrength.com/store/now-whey-protein-isolate.html",
+            "Deal": "LIMITED TIME PRICE CUT",
+        }
+    },
+    {
+        "MuscleTech Iso Whey Clear": {
+            "Price": "$24.49",
+            "Link": "www.muscleandstrength.com/store/muscletech-iso-whey-clear-protein.html",
+            "Deal": "EXTRA 30% OFF",
+        }
+    },
+    {
+        "Swolverine Whey Isolate, 2lbs": {
+            "Price": "$39.99",
+            "Link": "www.muscleandstrength.com/store/swolverine-whey-protein-isolate.html",
+            "Deal": "LIMITED TIME PRICE CUT",
+        }
+    },
+    {
+        "Dymatize Iso100, 20 Servings": {
+            "Price": "$34.99",
+            "Link": "www.muscleandstrength.com/store/dymatize-iso-100.html",
+            "Deal": "LIMITED TIME PRICE CUT",
+        }
+    },
+    {
+        "MAN Sports ISO-Protein, 1.5lbs": {
+            "Price": "$19.99",
+            "Link": "www.muscleandstrength.com/store/man-sports-isolate-protein-powder.html",
+            "Deal": "LIMITED TIME PRICE CUT",
+        }
+    },
+    {
+        "Nutrex ISOFIT, 5lbs": {
+            "Price": "$59.99",
+            "Link": "www.muscleandstrength.com/store/nutrex-isofit.html",
+            "Deal": "LIMITED TIME PRICE CUT",
+        }
+    },
+    {
+        "USN IsoPro 100% Whey Isolate, 4lbs": {
+            "Price": "$83.99",
+            "Link": "www.muscleandstrength.com/store/usn-zero-carb-isopro-whey-protein-isolate.html",
+            "Deal": "Buy 2 for $99",
+        }
+    },
+    {
+        "Fizzique Sparkling Protein Water, Box of 12": {
+            "Price": "$29.99",
+            "Link": "www.muscleandstrength.com/store/fizzique-sparkling-protein-water.html",
+            "Deal": "PRICE CUT + FREE ACV Gummies 60ct",
+        }
+    },
+    {
+        "Fizzique Sparkling Protein Water, 1 Can": {
+            "Price": "$4.99",
+            "Link": "www.muscleandstrength.com/store/fizzique-sparkling-protein-water.html",
+            "Deal": "Buy 1 Get 1 FREE",
+        }
+    },
+]

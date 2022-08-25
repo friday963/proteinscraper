@@ -1,11 +1,16 @@
 from multiprocessing.spawn import import_main_path
-from protein_scrape import MuscleAndStrength
-
+from protein_scrape import MuscleAndStrengthProtein
+from sendemail import SendGridEmailer
+import os
 
 if __name__ == "__main__":
-    ms = MuscleAndStrength()
-    get_page = ms.get_url(
-        "https://www.muscleandstrength.com/store/category/protein/whey-protein-isolate.html"
-    )
+    email_api_key = os.environ.get('SENDGRID_API_KEY')
+    to_email = os.environ.get("TO_EMAIL")
+    from_email = os.environ.get("FROM_EMAIL")
+    ms = MuscleAndStrengthProtein()
+    get_page = ms.get_url()
     results = ms.parse_results(get_page)
     print(results)
+    send = SendGridEmailer(to_email=to_email, from_email=from_email, subject="Automated Protein Deal Alerts")
+    send.add_body_and_format(results)
+    send.send_email()
