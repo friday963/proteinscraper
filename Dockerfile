@@ -9,4 +9,4 @@ SHELL [ "/bin/bash", "-c" ]
 
 RUN source venv/bin/activate && pip install --upgrade pip && pip install -r requirements.txt
 
-CMD [ "python main.py" ]
+CMD [ "venv/bin/python main.py" ]
