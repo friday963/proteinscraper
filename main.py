@@ -2,8 +2,10 @@ from multiprocessing.spawn import import_main_path
 from protein_scrape import MuscleAndStrengthProtein
 from sendemail import SendGridEmailer
 import os
+from dotenv import load_dotenv
 
 if __name__ == "__main__":
+    load_dotenv()
     email_api_key = os.environ.get('SENDGRID_API_KEY')
     to_email = os.environ.get("TO_EMAIL")
     from_email = os.environ.get("FROM_EMAIL")
