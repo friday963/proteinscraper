@@ -22,9 +22,8 @@ jobs:
         username: ${{ secrets.DOCKER_USER }}
         password: ${{ secrets.DOCKER_PASSWORD }}
 
-    - name: Docker Push
-      uses: docker/build-push-action@v3
-      # run: docker push andrewf2020/proteinscrape:v1
+    - uses: docker/build-push-action@v3
+      name: Docker Push
       with:
         push: true
         tags: andrewf2020/proteinscrape:latest
