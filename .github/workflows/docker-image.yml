@@ -14,7 +14,7 @@ jobs:
 
     steps:
     - name: Print test var
-      run: echo ${{secrets.TEST_SECRET}}
+      run: echo ${{TEST_SECRET}}
     - uses: actions/checkout@v3
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag v1:$(date +%s)
