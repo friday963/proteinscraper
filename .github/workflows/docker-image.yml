@@ -14,6 +14,8 @@ jobs:
 
     steps:
     - name: Print test var
+      env:
+        TEST_SECRET: ${{secrets.TEST_SECRET}}
       run: echo ${{TEST_SECRET}}
     - uses: actions/checkout@v3
     - name: Build the Docker image
