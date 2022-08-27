@@ -13,15 +13,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Print test var
-      env:
-        TEST_SECRET: ${{secrets.TEST_SECRET}}
-      run: echo $TEST_SECRET
     - uses: actions/checkout@v3
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag v1:$(date +%s)
 
     - uses: docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9
       with:
-        username: ${{ secrets.DOCKERHUB_USER}}
-        password: ${{ secrets.DOCKERHUB_PASSWORD}}
+        username: ${{ secrets.DOCKER_USER}}
+        password: ${{ secrets.DOCKER_PASSWORD}}
