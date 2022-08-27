@@ -17,9 +17,9 @@ jobs:
         name: Checkout the repo
         uses: actions/checkout@v3
 
-      - 
-        name: Build the Docker image
-        run: docker build . --file Dockerfile --tag v1:$(date +%s)
+      # - 
+      #   name: Build the Docker image
+      #   run: docker build . --file Dockerfile --tag v1:$(date +%s)
 
       - 
         name: Log into Docker Hub
