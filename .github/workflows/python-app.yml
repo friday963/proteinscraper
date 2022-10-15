@@ -25,6 +25,4 @@ jobs:
     - name: Run job
       run: |
         python main.py
-    - name: Test with pytest
-      run: |
-        pytest
+
