@@ -45,7 +45,7 @@ class ProteinGetter:
 class MuscleAndStrengthProtein(ProteinGetter):
     def __init__(self) -> None:
         super().__init__()
-        self.uri = os.environ.get("MuscleAndStrengthProtein")
+        self.uri = os.environ.get("MUSCLEANDSTRENGTHPROTEIN")
 
     def get_url(self, headers=None, payload=None) -> requests.Response:
         return super().get_url(self.uri, headers, payload)
