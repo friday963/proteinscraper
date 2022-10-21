@@ -82,7 +82,8 @@ class MuscleAndStrengthProtein(ProteinGetter):
                     "href"
                 ]
             except Exception as err:
-                raise KeyError("Could not retrieve link to item, structure changed.")
+                # raise KeyError("Could not retrieve link to item, structure changed.")
+                link = None
             try:
                 product_description = individual_deal_attributes[1]["div"][0]["_value"]
             except Exception as err:
