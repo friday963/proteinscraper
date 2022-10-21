@@ -22,7 +22,7 @@ jobs:
         python main.py
       env:
         FROM_EMAIL: ${{ secrets.FROM_EMAIL }}
-        MUSCLEANDSTRENGTHPROTEIN: ${{ secrets.SENDGRID_API_KEY }}
-        SENDGRID_API_KEY: ${{secrets.SENDGRID_API_KEY}}
-        TO_EMAIL: ${{secrets.TO_EMAIL}}
+        MUSCLEANDSTRENGTHPROTEIN: ${{ secrets.MUSCLEANDSTRENGTHPROTEIN }}
+        SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+        TO_EMAIL: ${{ secrets.TO_EMAIL }}
 
